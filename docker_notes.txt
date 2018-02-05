@@ -1,0 +1,2 @@
+#DOCKER POSTGRES DATABASE
+`docker run -p 5432:5432 -e POSTGRES_DB=dev -e POSTGRES_PASSWORD=password postgres:9.6-alpine`
