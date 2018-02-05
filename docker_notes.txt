@@ -1,2 +1,8 @@
-#DOCKER POSTGRES DATABASE
-`docker run -p 5432:5432 -e POSTGRES_DB=dev -e POSTGRES_PASSWORD=password postgres:9.6-alpine`
+>DOCKER POSTGRES DATABASE
+
+* Create Docker Container for Postgres DB:
+  docker create postgres:9.6-alpine
+
+* Start Postgres DB in docker:
+  docker run -p 5432:5432 -e POSTGRES_DB=dev -e POSTGRES_PASSWORD=password postgres:9.6-alpine
+
